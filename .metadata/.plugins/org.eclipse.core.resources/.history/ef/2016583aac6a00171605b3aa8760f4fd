@@ -1,0 +1,11 @@
+package first.pack;
+
+public class ControlFlow {
+	int a = 10;
+		if(a<11){
+		System.out.println("A is less than 10");
+	}
+	else{
+		System.out.println("A is not less than 10");
+	}
+}
