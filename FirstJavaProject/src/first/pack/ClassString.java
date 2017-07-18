@@ -5,9 +5,9 @@ public class ClassString {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		String name = "My name";
-		String surname = "My surname";
-		String country = "My country";
+		//String name = "My name";
+		//String surname = "My surname";
+		//String country = "My country";
 		
 		/* This is a comment. 
 		 * is this also comment? yes,
@@ -86,7 +86,7 @@ public class ClassString {
 		// int[][] b = {{1,2,3},{4,5,6}};
 		
 		int arr[]={1,3,5,7,9};
-		for(int j=0;i<arr.length;j++){
+		for(int j=0;j<arr.length;j++){
 			System.out.print(arr[j]+"");
 		}
 		int arr2[] ={2,4,6,8,10};
@@ -95,8 +95,10 @@ public class ClassString {
 		}
 		int[][] arr3 = {{1,2,3},{4,5,6}};
 		for(int l=0;l<arr3.length;l++){
-			
-				
+			for(int m=0;m<arr3[m].length;m++){
+				System.out.println(arr3[l][m]);
+			}
+			System.out.println();
 		}
 		
 		

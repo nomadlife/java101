@@ -1,0 +1,11 @@
+package second.pack;
+
+public class Car {
+
+	void star(){
+		activate = false;
+	}
+	void stop(){
+		activate = false;
+	}
+}
