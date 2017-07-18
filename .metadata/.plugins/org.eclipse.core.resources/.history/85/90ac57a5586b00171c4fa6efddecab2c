@@ -118,12 +118,12 @@ public class ControlFlow {
 		
 		for (int i=1; i<=100; i++){
 			if (i%2==0){
-				if(counterEven ==3){ // sum of 6n. proved by octave.
+				if(counterEven ==3){
 					sumEven+=i;
 					counterEven =1;
 				}else counterEven ++;
 			}else{
-				if(counterOdd ==5){ // sum of 10n-1. proved by octave
+				if(counterOdd ==5){
 					sumOdd+=i;
 					counterOdd =1;
 				}else counterOdd++;
@@ -131,23 +131,6 @@ public class ControlFlow {
 		}
 		System.out.println("Sum of even numbers is:"+sumEven+",sum of odd numbers is:"+sumOdd);
 		
-		//While loop
-		System.out.println("=====Test10, While loop");
-		
-		int n=15;
-		int i=5;
-		while (i<n){
-			System.out.print(i+""); // print 5,6,7,,,14
-			i++;
-		}
-		
-		// Do while
-		System.out.println("=====Test11, Do While loop");
-		//difference between those two is that do while loop will execute minimum one time.
-		int y=0;
-		do{
-			System.out.print(y++);
-		}while(y<10);
 	}
 }
 

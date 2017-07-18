@@ -142,12 +142,7 @@ public class ControlFlow {
 		}
 		
 		// Do while
-		System.out.println("=====Test11, Do While loop");
-		//difference between those two is that do while loop will execute minimum one time.
-		int y=0;
-		do{
-			System.out.print(y++);
-		}while(y<10);
+		
 	}
 }
 

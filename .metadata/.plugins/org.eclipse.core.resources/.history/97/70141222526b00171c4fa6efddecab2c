@@ -3,7 +3,6 @@ package first.pack;
 public class ControlFlow {
 	public static void main(String[] args) {
 	
-		// Control Flow Statements
 		System.out.println("====Test1");
 		int a = 10;
 		if(a<11){
@@ -80,77 +79,9 @@ public class ControlFlow {
 		String str = "World";
 		System.out.printf("Hello %s",str); //placeholder for a String (%s), char, int, float, blooean
 		
-		//for (initialization; condition; increment/decrement{body}
-		System.out.println("");
-		for(int i=1;i<=10;i++){
-			System.out.print(i+""); //try println to see difference
-		}
-		// what if we want to iterate in reverse way.
-		for (int i=10; i>=1; i--){
-			System.out.println(i+" ");
-		}
 		
-		//for each
-		System.out.println("=====Test7, for each");
-		double[] array = {1.6, 2.8, 4.54};
-		for (double ar : array){
-			System.out.println(ar+" ");
-		}
-		
-		//Nested loops
-		System.out.println("=====Test8, Nested loops");
-		for(int i=0; i<10; i++){
-			if(i==7){
-				break; // when loop reasches to 7 it stops and prints everything until that condition
-			}
-			if(i==2)
-				continue; // when condition is met it stops and start another iteration.
-			System.out.println(i+" ");
-			
-		}
-		
-		// break and continue
-		System.out.println("=====Test9, break and continue");
-		int sumEven=0;
-		int sumOdd=0;
-		int counterEven=1;
-		int counterOdd=1;
-		
-		for (int i=1; i<=100; i++){
-			if (i%2==0){
-				if(counterEven ==3){ // sum of 6n. proved by octave.
-					sumEven+=i;
-					counterEven =1;
-				}else counterEven ++;
-			}else{
-				if(counterOdd ==5){ // sum of 10n-1. proved by octave
-					sumOdd+=i;
-					counterOdd =1;
-				}else counterOdd++;
-			}
-		}
-		System.out.println("Sum of even numbers is:"+sumEven+",sum of odd numbers is:"+sumOdd);
-		
-		//While loop
-		System.out.println("=====Test10, While loop");
-		
-		int n=15;
-		int i=5;
-		while (i<n){
-			System.out.print(i+""); // print 5,6,7,,,14
-			i++;
-		}
-		
-		// Do while
-		System.out.println("=====Test11, Do While loop");
-		//difference between those two is that do while loop will execute minimum one time.
-		int y=0;
-		do{
-			System.out.print(y++);
-		}while(y<10);
 	}
 }
-
 
 
 
