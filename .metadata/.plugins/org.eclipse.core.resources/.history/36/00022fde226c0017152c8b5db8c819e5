@@ -1,0 +1,14 @@
+package second.pack;
+
+public class Area {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		public static int countArea(int width, ubt height){
+			return width * height;
+		}
+		//public statis : modifier, what will be explained a bit latter
+		//int : return type
+	}
+
+}

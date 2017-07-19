@@ -1,0 +1,11 @@
+package second.pack;
+
+public class PrivateClass {
+	
+	protected void methodOne(){ //Public methods are accessible from whole out prohect.
+		System.out.println("protected Method is called!");
+	}
+
+	
+
+}

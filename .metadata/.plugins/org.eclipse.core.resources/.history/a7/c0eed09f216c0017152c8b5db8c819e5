@@ -1,0 +1,16 @@
+package second.pack;
+
+public class Professor {
+	
+	String name;
+	int age;
+	String city;
+	Professor(Sting n, int a, String c){
+		this.name = n;
+		this.age = a;
+		this.city = c;
+	}
+	void print(){
+		System.out.println(name+" "+age+" "+city);
+	}
+}

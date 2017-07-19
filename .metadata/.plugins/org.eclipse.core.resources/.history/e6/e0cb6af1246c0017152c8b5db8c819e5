@@ -1,0 +1,11 @@
+package second.pack;
+
+public class PrivateClass {
+	
+	private void methodOne(){
+		System.out.println("Method is called!");
+	}
+
+	
+
+}

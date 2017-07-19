@@ -4,11 +4,10 @@ public class Car {
 
 	boolean activate;
 	
-	void star(){
-		activate = false;
+	void start(){
+		activate = true;
 	}
 	void stop(){
 		activate = false;
 	}
 }
-file
