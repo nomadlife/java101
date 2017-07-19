@@ -18,10 +18,10 @@ public class Array {
 		System.out.println(num);
 		System.out.println("New size of ArrayList is:"+ar.size());
 		
-		//for(int counter=0; counter<ar.size(); counter++){
-			// System.out.println(n);
+		for(int counter=0; counter<ar.size(); counter++){
+			System.out.println(n);
 			
-		//}
+		}
 		
 	}
 
