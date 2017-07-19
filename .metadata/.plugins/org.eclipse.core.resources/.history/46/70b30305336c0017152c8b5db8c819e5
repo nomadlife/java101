@@ -1,0 +1,20 @@
+package second.pack;
+
+public class StaticClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int val =3;
+		static int val2 =4;
+		
+		static void chanageValue(){
+			val2=6;
+			System.out.println(val2);
+		}
+		Static void print(){
+			System.out.println("Static method calling!");
+		}
+
+	}
+
+}
