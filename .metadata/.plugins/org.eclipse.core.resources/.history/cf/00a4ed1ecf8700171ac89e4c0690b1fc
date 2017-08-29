@@ -1,0 +1,13 @@
+package third.pack;
+
+public class Map {
+	
+	public static void main(String[] args) {
+	
+		HashMap<Integer, String> hm = new HashMap<Integer, String>();
+		hm.put(1,"numOne");
+		hm.put(2,"numTwo");
+		hm.put(3,"numThree");
+		System.out.prinln("Print me value of Key 1:"+ hm.get(1));
+	}
+}

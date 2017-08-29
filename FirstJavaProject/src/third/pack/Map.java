@@ -1,10 +1,17 @@
 package third.pack;
 
+// 8. Collections 2
+
+import java.util.HashMap;
+
 public class Map {
 	
-	HashMap<Integer> hm = new HashMap<Integer>();
-	hm.put(1,"numOne");
-	hm.put(2,"numTwo");
-	hm.put(3,"numThree");
-	System.out.prinln("Print me value of Key 1:"+ hm.get(1));
+	public static void main(String[] args) {
+	
+		HashMap<Integer, String> hm = new HashMap<Integer, String>();
+		hm.put(1,"numOne");
+		hm.put(2,"numTwo");
+		hm.put(3,"numThree");
+		System.out.println("Print me value of Key 1:"+ hm.get(2));
+	}
 }

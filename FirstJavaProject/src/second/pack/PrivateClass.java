@@ -6,7 +6,7 @@ public class PrivateClass {
 		System.out.println("protected Method is called!");
 	}
 	//Private is accessible only within class
-	//Public methods are accessible from whole out prohect.
+	//Public methods are accessible from whole out project.
 	//Protected is accessible only within package
 	
 

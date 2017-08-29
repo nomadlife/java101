@@ -1,5 +1,7 @@
 package third.pack;
 
+// 8. Collections
+// Array is impossible to change their size.
 import java.util.ArrayList;
 
 public class Array {
@@ -13,16 +15,17 @@ public class Array {
 		ar.add(3);
 		
 		System.out.println("Size of ArrauList is:"+ar.size());
-		ar.remove(0);
-		int num = ar.get(0);
+		ar.remove(0);    //remove 0th element from array
+		int num = ar.get(0);  //get first array value
 		System.out.println(num);
 		System.out.println("New size of ArrayList is:"+ar.size());
 		
-		//for(int counter=0; counter<ar.size(); counter++){
-			// System.out.println(n);
-			
-		//}
-		
+		for(int counter=0; counter<ar.size(); counter++){
+			System.out.println(ar.get(counter));
+		}
+		for(Integer n:ar) {
+			System.out.println(n);
+		}
 	}
 
 }
